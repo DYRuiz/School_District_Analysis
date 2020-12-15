@@ -37,9 +37,5 @@ Average Math Score | Average Reading Score
 
 Results:  
 
-Replacing the math and reading scores of the Thomas High School ninth graders had negligible impact on the district wide averages and did not change the overall school rankings.  The average math and reading scores and the related passing percentages all increased slightly for Thomas High School after removing the ninth graders test scores.  A definitive conclusion on the impact of those test scores cannot be made until the scores are validated and added back into the data population. 
+Replacing the math and reading scores of the Thomas High School ninth graders with NaNs had negligible impact on the district wide averages and did not change the overall school rankings.  The overall passing percentage decreased slightly from 65.2% to 64.9%.  The average math and reading scores and the related passing percentages for Thomas High School changed by less than +/- 0.5% after removing the ninth graders test scores.  A definitive conclusion on the impact of those test scores cannot be made until the scores are validated and added back into the data population. 
 
-The district wide key metrics are presented below for comparison:
-![PerSchoolUnadjusted](/Resources/unadjusted_per_school_summary.png)
-
-![DistrictUnadjusted](/Resources/unadjusted_district_summary.png)
