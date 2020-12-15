@@ -1,31 +1,45 @@
-# School_District_Analysis
+# School District Analysis
 
-#Deliverables
-Here is the list of deliverables for the analysis of the school district: 
+## Overview
 
-- A high-level snapshot of the district's key metrics, presented in a table format
-- An overview of the key metrics for each school, presented in a table format
-- Tables presenting each of the following metrics:
-  - Top 5 and bottom 5 performing schools, based on the overall passing rate
-  
-  
-  - The average math score received by students in each grade level at each school
-  - The average reading score received by students in each grade level at each school
-  - School performance based on the budget per student
-  - School performance based on the school size 
-  - School performance based on the type of school
-The analysis should contain the following:
+The Chief Data Scientist for a city school district has requested assistance in anlayzing the results of student standardized math and reading test scores within the district to analyze performance trends and patterns.  Insights provided from the analysis will be used by school board for school budget and planning.  During the analysis it was discovered that the test scores of for ninth grade students at Thomas High School may have been tampered with.  For the purpose of this analysis the test scores of those students have been excluded from the final reports.
 
-Overview of the school district analysis: Explain the purpose of this analysis.
+## Results
 
-Results: Using bulleted lists and images of DataFrames as support, address the following questions.
+### District Summary - Key Metrics
 
-How is the district summary affected?
-How is the school summary affected?
-How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-How does replacing the ninth-grade scores affect the following:
-Math and reading scores by grade
-Scores by school spending
-Scores by school size
-Scores by school type
-Summary: Summarize four major changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
+![DistrictSummary](/Resources/challenge_district_summary.png)
+
+##### District Summary by School Type
+
+![SchoolType](/Resources/challenge_school_type.png)
+
+##### District Summary by School Size
+
+![SchoolSize](/Resources/challenge_school_size.png)
+
+##### District Summary by per Student Spending
+
+![SpendingRanges](/Resources/challenge_spending_ranges.png)
+
+#### School Ranking
+Top 5 Performing Schools:
+![TopFive](/Resources/challenge_top_five.png)
+
+Bottom 5 Performing Schools:
+![BottomFive](/Resources/challenge_bottom_five.png)
+
+#### Grade Level Performance
+
+Average Math Score | Average Reading Score
+-------------------|----------------------
+![Math](/Resources/challenge_math_score_by_grade.png) | ![Reading](/Resources/challenge_reading_score_by_grade.png)
+
+Results:  
+
+Replacing the math and reading scores of the Thomas High School ninth graders had negligible impact on the district wide averages and did not change the overall school rankings.  The average math and reading scores and the related passing percentages all increased slightly for Thomas High School after removing the ninth graders test scores.  A definitive conclusion on the impact of those test scores cannot be made until the scores are validated and added back into the data population. 
+
+The district wide key metrics are presented below for comparison:
+![PerSchoolUnadjusted](/Resources/unadjusted_per_school_summary.png)
+
+![DistrictUnadjusted](/Resources/unadjusted_district_summary.png)
