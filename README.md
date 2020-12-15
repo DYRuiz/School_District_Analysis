@@ -6,30 +6,32 @@ The Chief Data Scientist for a city school district has requested assistance in 
 
 ## Results
 
-### District Summary - Key Metrics
+### District Key Metrics
+
+District Summary
 
 ![DistrictSummary](/Resources/challenge_district_summary.png)
 
-##### District Summary by School Type
+Scores by School Type
 
 ![SchoolType](/Resources/challenge_school_type.png)
 
-##### District Summary by School Size
+Scores by School Size
 
 ![SchoolSize](/Resources/challenge_school_size.png)
 
-##### District Summary by per Student Spending
+Scores by per Student Spending
 
 ![SpendingRanges](/Resources/challenge_spending_ranges.png)
 
-#### School Ranking
+### School Ranking
 Top 5 Performing Schools:
 ![TopFive](/Resources/challenge_top_five.png)
 
 Bottom 5 Performing Schools:
 ![BottomFive](/Resources/challenge_bottom_five.png)
 
-#### Grade Level Performance
+### Grade Level Performance
 
 Average Math Score | Average Reading Score
 -------------------|----------------------
